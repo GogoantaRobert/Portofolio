@@ -1,8 +1,9 @@
 html {
   scroll-behavior: smooth;
   font-family: Trebuchet ;
-  width: auto;
 }
+
+
 
 h4 {
   margin-left: 1165px;
@@ -171,12 +172,12 @@ ul {
 #welcome-section {
   height: 100vh;
   width: 100%;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-size: cover;
-  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%23000000' fill-opacity='0.18' fill-rule='evenodd'/%3E%3C/svg%3E");
+ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%23000000' fill-opacity='0.18' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
   
@@ -423,6 +424,8 @@ ul {
   font-family:'Averia Serif Libre', cursive;
   font-weight:900;
   color: black;
+  margin-left: -500px;
+  
 }
 #h3 {
   color:black;
@@ -440,7 +443,7 @@ ul {
 .Rby {
  height: 210px;
  width: 200px;
- margin-right: 670px;
+ margin-top: 15px;
 
 }
 
@@ -530,17 +533,21 @@ img:hover {
   font-family: Georgia;
   font-style: italic;
 }
-h1 {
+#p1 {
   color: rgb(9, 12, 211);
   font-weight: 400;
   font-size: 2.5em;
+  margin-left: 100px;
+  margin-top: -100px;
+  
 }
-h2 {
+#p2 {
   color: rgb(0, 16, 245);
   font-size: 1.2em;
   font-weight: 400;
   font-family: Georgia;
   font-style: italic;
+  margin-top: -20px;
 }
 h3 {
   padding: 1em;
