@@ -6,32 +6,35 @@ html {
 
 
 h4 {
-  margin-left: 1165px;
-  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+   font-size: 20px;
   font-family:'Averia Serif Libre', cursive;
   font-weight:900;
-  
+  padding:20px;
+  padding-right: 70px;
 }
 
 .CV {
-  margin-left: 1100px;
-  margin-top: 20px;
+  padding: 20px;
+ display: flex;
+ justify-content:flex-end;
   height: 50px;
+  align-items: center;
 }
 
 .cert {
-  margin-left: 1100px;
+  display: flex;
+  justify-content: flex-end;
   font-size: 20px;
-  margin-bottom: 55px;
-  border-radius: 20px;
-  width: 50px;
   height: 50px;
+  padding: 22px;
+  align-items: center;
   
- 
 }
 
 .btn1 {
-  display: block;
+
   width: 220px;
   height: 80px;
   background-color: #f5f3f9;
@@ -56,7 +59,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .btn2 {
-  display: block;
+  display: flex;
+  justify-content: right;
   width: 220px;
   height: 80px;
   background-color: #f5f3f9;
@@ -82,7 +86,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .btn3 {
 
-  display: block;
   width: 220px;
   height: 80px;
   background-color: #f5f3f9;
@@ -115,8 +118,11 @@ a:link{
 }
 
 .cert2 {
-  margin-left: 1100px;
+  display: flex;
+  justify-content:flex-end;
   font-size:50px;
+  padding: 20px;
+  align-items: center;
 }
 
 nav {
@@ -154,9 +160,6 @@ ul {
   color: #818181;
   display: block;
 }
-
- 
-
 
 
 .nav-link {
@@ -412,26 +415,26 @@ ul {
 }
 
 #h1 {
-  
+  display: flex;
+  justify-content: flex-end;
   font-style: italic;
   color: rgb(0, 0, 0);
-  margin-top: 200px;
   font-family:'Averia Serif Libre', cursive;
   font-weight:900;
 }
  
 #h2 {
-  font-family:'Averia Serif Libre', cursive;
+  display: flex;
+  justify-content: flex-end;
+   font-family:'Averia Serif Libre', cursive;
   font-weight:900;
   color: black;
-  margin-left: -500px;
+  
   
 }
 #h3 {
   color:black;
   float: right;
-  margin-left: 350px;
-  margin-bottom: 100px;
   font-family:'Averia Serif Libre', cursive;
   font-weight:900;
   
@@ -441,25 +444,24 @@ ul {
 
 
 .Rby {
+    display: flex;
+  justify-content: flex-end;
  height: 210px;
  width: 200px;
- margin-top: 15px;
+ 
 
 }
 
 
 
 #projects {
-  margin: 60% 25% 25% -7.5%;
-  padding: 20% 25% 25% 20%;
+  padding: 160px;
+  display: flex;
+  justify-content:flex-end;
   text-align: center;
   height: 110vh;
   width: 200px;
-  display: flex;
   flex-direction: column;
-  align-items: right;
-  justify-content: center;
-  margin-top: 50px;
   cursor: pointer;
  
   
@@ -509,7 +511,7 @@ ul {
 }
 img {
   width: 80%;
-  padding-bottom: 10px;
+  
   
 }
 img:hover {
@@ -537,9 +539,8 @@ img:hover {
   color: rgb(9, 12, 211);
   font-weight: 400;
   font-size: 2.5em;
-  margin-left: 100px;
-  margin-top: -100px;
-  
+  display: flex;
+  justify-content: flex-end;
 }
 #p2 {
   color: rgb(0, 16, 245);
@@ -547,10 +548,12 @@ img:hover {
   font-weight: 400;
   font-family: Georgia;
   font-style: italic;
-  margin-top: -20px;
+  display: flex;
+  justify-content: flex-end;
 }
 h3 {
-  padding: 1em;
+  display: flex;
+  justify-content: flex-end;
   font-size: 1.6em;
   font-weight: 400;
 }
@@ -593,3 +596,4 @@ h3 {
   font-size: 0.8em;
   text-align: right;
   }
+
